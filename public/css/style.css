@@ -1,0 +1,51 @@
+.caption{
+    height:auto;
+}
+
+.blink {
+    -webkit-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+}
+@-webkit-keyframes blink { 50% { visibility: hidden; }}
+@keyframes blink { 50% { visibility: hidden; }}
+
+.navbar-custom {
+    background-color:  #337AB7 !important;
+    border-color: #337AB7;
+}
+
+/*.navbar-inverse{*/
+    /*background-color: #337AB7;*/
+    /*border-color: #337AB7;*/
+/*}*/
+
+
+.navbar-custom .navbar-nav>li>a{
+    color: #f3f9c7;
+    font-size: 15px;
+}
+.navbar-custom .navbar-nav>li>a:hover {
+    color: #000000;
+    font-size: 15px;
+}
+.navbar-custom .navbar-nav>li>a:active {
+    color: #000000;
+    font-size: 15px;
+}
+
+.navbar-custom .navbar-brand{
+    color: #f3f9c7;
+    font-size: 18px;
+}
+
+.searchProductsInput{
+    height:43px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px
+}
+
+.searchProductsSubmit{
+    border-bottom-left-radius: 0px;border-top-left-radius: 0px;padding: 11px 12px
+}
+
+
